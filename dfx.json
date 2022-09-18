@@ -6,14 +6,15 @@
       "type": "motoko",
       "main": "src/my_microblog_backend/main.mo"
     },
+
+    "my_microblog_backend2": {
+      "type": "motoko",
+      "main": "src/my_microblog_backend/main.mo"
+    },
     "my_microblog_frontend": {
       "type": "assets",
-      "source": [
-        "src/my_microblog_frontend/assets"
-      ],
-      "dependencies": [
-        "my_microblog_backend"
-      ]
+      "source": ["src/my_microblog_frontend/assets"],
+      "dependencies": ["my_microblog_backend"]
     }
   },
   "defaults": {
